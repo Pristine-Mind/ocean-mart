@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* General styles */
+body {
+  font-family: 'Roboto', sans-serif;  /* Updated font */
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styles */
+header {
+  background-color: #19a64f; /* New background color for the header */
+  padding: 1em;
+}
+
+/* Navigation menu */
+header nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation links */
+header nav ul li a {
+  color: white;  /* Text color for nav links */
+  text-decoration: none;
+  font-weight: bold;  /* Bold text */
+  transition: color 0.3s;  /* Smooth transition for hover effect */
+}
+
+/* Hover effect for navigation links */
+header nav ul li a:hover {
+  color: #ffcc00;  /* Change color on hover */
+}
+
+/* Footer styles */
+footer {
+  background-color: #006994;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+  margin-top: 2em;
+}
+
+/* Main content */
+main {
+  padding: 2em;
+}
+
+/* Product grid */
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1em;
+}
+
+/* Product card styles */
+.product-card {
+  border: 1px solid #ddd;
+  padding: 1em;
+  text-align: center;
+}
+
+.product-card img {
+  max-width: 100%;
+  height: auto;
+}
