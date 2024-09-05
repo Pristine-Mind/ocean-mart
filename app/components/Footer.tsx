@@ -4,8 +4,8 @@ export default function Footer() {
         <p>© 2024 OceanMart. All rights reserved.</p>
         <p>
           Follow us on{' '}
-          <a href="#" className="hover:text-gray-300">Facebook</a> |{' '}
-          <a href="#" className="hover:text-gray-300">Instagram</a>
+          <a href="https://www.facebook.com/oceanmartktm/" className="hover:text-gray-300">Facebook</a> |{' '}
+          <a href="https://www.instagram.com/oceanmartktm/" className="hover:text-gray-300">Instagram</a>
         </p>
       </footer>
     );
