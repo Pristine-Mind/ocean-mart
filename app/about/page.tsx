@@ -14,7 +14,7 @@ export default function About() {
         <h2 className="text-3xl font-bold text-oceanBlue mb-4">Our Mission</h2>
         <p className="text-gray-700 text-lg leading-relaxed">
           At OceanMart, our mission is to provide the best seafood experience possible. We prioritize freshness, sustainability, and 
-          customer satisfaction. Whether you're a seasoned chef or a home cook, we deliver top-quality seafood right to your door, 
+          customer satisfaction. Whether you are a seasoned chef or a home cook, we deliver top-quality seafood right to your door, 
           ensuring a delightful culinary journey with every bite.
         </p>
       </div>

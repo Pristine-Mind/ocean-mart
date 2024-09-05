@@ -5,10 +5,10 @@ export default function Contact() {
         <h1 className="text-4xl font-bold text-oceanBlue mb-6 text-center">Contact Us</h1>
         <div className="text-center text-gray-700">
           <p className="mb-2">
-            <strong>Address:</strong> GagnPokhari, Kathmandu
+            <strong>Address:</strong> Bhagawati Marg, Kathmandu
           </p>
           <p className="mb-2">
-            <strong>Phone:</strong> +977 - 980980785
+            <strong>Phone:</strong> +977 - 9881365495
           </p>
           <p className="mb-6">
             <strong>Email:</strong> <a href="mailto:info@oceanmart.com" className="text-oceanBlue hover:underline">info@oceanmart.com</a>
